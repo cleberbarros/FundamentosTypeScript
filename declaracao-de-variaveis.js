@@ -1,27 +1,27 @@
 //var, let e const
 //com var
 function iniciarTimeCidade_declarado_com_var(iniciaJogo) {
-    var nome = 'Messi e inimigos!';
+    var nome = 'Messi e amigos!';
     if (iniciaJogo) {
-        var cidade = 'em casa do caralho pra dentro!';
+        var cidade = 'Petrolina-PE!';
     }
     console.log(nome + " vao jogar " + cidade);
 }
 //com let
 function iniciarTimeCidade_declarado_com_let(iniciaJogo) {
-    var nome = 'Messi e inimigos!';
+    var nome = 'Messi e amigos!';
     var cidade = 'nada';
     if (iniciaJogo) {
-        cidade = 'em casa do caralho pra dentro com let!';
+        cidade = 'Petrolina-PE!';
     }
     console.log(nome + " vao jogar " + cidade);
 }
 //com  const (constante)
 function iniciarTimeCidade_declarado_com_const(iniciaJogo) {
-    var nome = 'Messi e inimigosooooo!';
+    var nome = 'Messi e amigos!';
     var cidade = 'nada';
     if (iniciaJogo) {
-        cidade = 'em casa do caralho pra dentro com let!';
+        cidade = 'Petrolina-PE!!';
     }
     //nome = 'pele e amigo'; //erro pois nao posso atribuir um valor a constante
     console.log(nome + " vao jogar " + cidade);
