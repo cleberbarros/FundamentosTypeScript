@@ -30,7 +30,7 @@ console.log(corFundo);
 
 //Any - Não legal usar muito
 let algumValor: any = 4;
-algumValor = 'Agpra é ums string';
+algumValor = 'Agora é ums string';
 algumValor = true;
 
 //void
